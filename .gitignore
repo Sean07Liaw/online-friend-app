@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+dist/
+build/
+.DS_Store
+*.log
+
+# Python
+backend/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+!.env.template
+
+# IDE
+.vscode/
+.idea/
+note.md

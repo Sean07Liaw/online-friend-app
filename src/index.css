@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .mica-effect {
+    background: rgba(249, 249, 249, 0.7);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+  }
+
+  .glass-panel {
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
+  }
+
+  .mica-bg {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAwtWrgIhcczUi0E4vuM9Ya14586EwKrx5fIbGVKRLxA77BW6fXfLarMfr09cl64crrkdRbhFDs8vCWEFfwuZaw5bdgNQyqBZSyxdn5jm9s1wjB5Q71dRZLcys3_GHz-OCFe-Nvq8uvBxZlxyRvABxWVH5ck52vqGpwp5M_WqyIqb1Bv88m9TKZ-lWOIutiF9R6SX6GNuFshVTvzgxOud53i9CBsdvHs03HtnLQrGSt63A4J8uAr2E32fJ_9ypogFIX88HfdO-QYvpd);
+    background-size: cover;
+    background-position: center;
+  }
+}

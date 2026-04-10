@@ -1,0 +1,5 @@
+{
+  "name": "Online Friends App",
+  "description": "A social app to see online friends and chat, featuring a modern mica-effect login and list view.",
+  "requestFramePermissions": []
+}
