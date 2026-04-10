@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+supabase
+pydantic
+pydantic-settings
+python-dotenv
+PyJWT
+bcrypt
+python-multipart
